@@ -1,6 +1,6 @@
 {
-  "name": "react-use-form",
-  "version": "0.0.1",
+  "name": "use-form-react",
+  "version": "0.0.2",
   "description": "The most unopinionated react from hook.",
   "main": "dist/index.js",
   "keywords": [
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/amazingandyyy/react-use-form.git"
+    "url": "https://github.com/amazingandyyy/use-form-react.git"
   },
   "peerDependencies": {
     "react": "^16.8.0"
@@ -35,7 +35,7 @@
     "dev:advance": "parcel examples/advance/index.html --open",
     "build": "parcel build --target node ./src/*",
     "test": "jest",
-    "publish": "yarn build && yarn publish"
+    "publish": "npm run build && npm publish"
   },
   "files": [
     "dist"

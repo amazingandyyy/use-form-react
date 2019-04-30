@@ -22,7 +22,7 @@ const Form = () => {
     <div>
       {error&&<div>error: {error}</div>}
       <form onSubmit={onSubmit}>
-        <h3>Advance Form Demo (<a href='https://github.com/amazingandyyy/react-use-form' target='_blank'>react-use-form</a>)</h3>
+        <h3>Advance Form Demo (<a href='https://github.com/amazingandyyy/use-form-react' target='_blank'>use-form-react</a>)</h3>
         <input
           type='email'
           name="email"

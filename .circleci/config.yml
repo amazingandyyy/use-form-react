@@ -5,19 +5,19 @@ jobs:
       - image: circleci/node:8.10
     environment:
       - NODE_ENV: test
-    working_directory: ~/react-use-form
+    working_directory: ~/use-form-react
     steps:
       - checkout
       - restore_cache:
-          key: react-use-form-yarn-{{ checksum "yarn.lock" }}
+          key: use-form-react-yarn-{{ checksum "yarn.lock" }}
       - run:
           name: Yarn Install
           command: |
             yarn install
       - save_cache:
-          key: react-use-form-yarn-{{ checksum "yarn.lock" }}
+          key: use-form-react-yarn-{{ checksum "yarn.lock" }}
           paths:
-            - ~/react-use-form/node_modules
+            - ~/use-form-react/node_modules
       - run:
           name: Run JS Tests
           command: yarn test

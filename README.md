@@ -4,15 +4,18 @@
   <a href="https://github.com/amazingandyyy/use-form/pulls">
     <img src="https://camo.githubusercontent.com/d4e0f63e9613ee474a7dfdc23c240b9795712c96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e737667" />
   </a>
-  <a href="https://circleci.com/gh/amazingandyyy/react-use-form">
-    <img src="https://circleci.com/gh/amazingandyyy/react-use-form.svg?style=svg" />
+  <a href="https://circleci.com/gh/amazingandyyy/use-form-react">
+    <img src="https://circleci.com/gh/amazingandyyy/use-form-react.svg?style=svg" />
+  </a>
+  <a href="https://www.npmjs.com/package/use-form-react">
+    npm package
   </a>
 </p>
 
 ## Installation
 
 ```shell
-npm i --save react-use-form
+npm i --save use-form-react
 ```
 
 ## Have a good to use form in 10 seconds
@@ -23,10 +26,10 @@ npm i --save react-use-form
 
 ### Basic Usage
 
-check [basic example](https://github.com/amazingandyyy/react-use-form/blob/master/examples/basic/index.js)
+check [basic example](https://github.com/amazingandyyy/use-form-react/blob/master/examples/basic/index.js)
 
 ```jsx
-import useFetch from 'react-use-form'
+import useFetch from 'use-form-react'
 
 const Form = () => {
   const { onSubmit, onChange, inputs } = useForm('sampleForm', {
@@ -48,10 +51,10 @@ const Form = () => {
 
 ### Advance Usage
 
-check [advance example](https://github.com/amazingandyyy/react-use-form/blob/master/examples/advance/index.js)
+check [advance example](https://github.com/amazingandyyy/use-form-react/blob/master/examples/advance/index.js)
 
 ```jsx
-import useFetch from 'react-use-form'
+import useFetch from 'use-form-react'
 
 const SignUp = () => {
   const options = {
