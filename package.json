@@ -1,0 +1,43 @@
+{
+  "name": "react-use-form",
+  "version": "0.0.1",
+  "description": "The most unopinionated react from hook.",
+  "main": "dist/index.js",
+  "keywords": [
+    "react hook",
+    "react-hook",
+    "use",
+    "hook",
+    "react",
+    "form"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amazingandyyy/react-use-form.git"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "parcel-bundler": "^1.12.3",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "dev:basic": "parcel examples/basic/index.html --open",
+    "dev:advance": "parcel examples/advance/index.html --open",
+    "build": "parcel build --target node ./src/*",
+    "test": "jest",
+    "publish": "yarn build && yarn publish"
+  },
+  "files": [
+    "dist"
+  ]
+}
