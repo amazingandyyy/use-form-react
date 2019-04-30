@@ -72,7 +72,7 @@ const SignUp = () => {
   
   useEffect(() => {
     if(inputs.password1!==inputs.password2) console.log('password not matched')
-    });
+  });
   return (
     <form onSubmit={onSubmit}>
       <input
@@ -99,7 +99,7 @@ const SignUp = () => {
         onChange={onChange}
         required
         />
-      <button disabled={!dirty || error || submitting} type="submit">Sign in</button>
+      <button disabled={!dirty || error || submitting} type="submit">Sign up</button>
     </form>
   );
 }
