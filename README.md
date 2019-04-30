@@ -15,7 +15,7 @@
 npm i --save react-use-form
 ```
 
-<iframe src="https://giphy.com/embed/jkYpOoNMkZAk8y9u8F" width="438" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jkYpOoNMkZAk8y9u8F">via GIPHY</a></p>
+![demo](https://giphy.com/gifs/jkYpOoNMkZAk8y9u8F)
 
 ## Usage
 
