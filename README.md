@@ -15,9 +15,13 @@
 npm i --save react-use-form
 ```
 
+![video](https://s3.amazonaws.com/img0.recordit.co/gyvJDCxIOD.mp4?AWSAccessKeyId=AKIAINSRFOQXTN4DT46A&Expires=1556609056&Signature=vTQUm8gX3qw%2FnyF9jReS2AS9aCE%3D)
+
 ## Usage
 
 ### Basic Usage
+
+check [basic example](https://github.com/amazingandyyy/react-use-form/blob/master/examples/basic/index.js)
 
 ```jsx
 import useFetch from 'react-use-form'
@@ -42,7 +46,7 @@ const Form = () => {
 
 ### Advance Usage
 
-check [advance example]()
+check [advance example](https://github.com/amazingandyyy/react-use-form/blob/master/examples/advance/index.js)
 
 ```jsx
 import useFetch from 'react-use-form'
