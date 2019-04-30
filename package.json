@@ -1,7 +1,7 @@
 {
   "name": "use-form-react",
   "version": "0.0.2",
-  "description": "The most unopinionated react from hook.",
+  "description": "The most unopinionated react form hook.",
   "main": "dist/index.js",
   "keywords": [
     "react hook",
