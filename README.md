@@ -54,6 +54,7 @@ const Form = () => {
 check [advance example](https://github.com/amazingandyyy/use-form-react/blob/master/examples/advance/index.js)
 
 ```jsx
+import React, { useEffect } from 'react';
 import useFetch from 'use-form-react'
 
 const SignUp = () => {
