@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
+const forms = {};
 const useForm = (name, config) => {
-  const forms = {};
   forms[name] = useSpecificForm(name, config)
   return forms[name];
 }
