@@ -55,7 +55,7 @@ check [advance example](https://github.com/amazingandyyy/use-form-react/blob/mas
 
 ```jsx
 import React, { useEffect } from 'react';
-import useFetch from 'use-form-react'
+import useForm from 'use-form-react'
 
 const SignUp = () => {
   const options = {
