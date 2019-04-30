@@ -104,3 +104,12 @@ const SignUp = () => {
   );
 }
 ```
+
+## License
+
+MIT
+
+## To Do
+
+[ ] better test case
+[ ] debounce the error
