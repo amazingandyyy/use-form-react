@@ -15,7 +15,7 @@
 npm i --save react-use-form
 ```
 
-![demo](https://giphy.com/gifs/jkYpOoNMkZAk8y9u8F)
+![demo](https://media.giphy.com/media/jkYpOoNMkZAk8y9u8F/giphy.gif)
 
 ## Usage
 
