@@ -113,3 +113,4 @@ MIT
 
 [ ] better test case
 [ ] debounce the error
+[ ] built-in validation
