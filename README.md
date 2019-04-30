@@ -15,6 +15,8 @@
 npm i --save react-use-form
 ```
 
+## Have a good to use form in 10 seconds
+
 ![demo](https://media.giphy.com/media/jkYpOoNMkZAk8y9u8F/giphy.gif)
 
 ## Usage
