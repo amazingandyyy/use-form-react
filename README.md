@@ -1,21 +1,30 @@
-<h1 align="center">useForm</h1>
-<p align="center">Form hook made blazing fast and easy.</p>
+<h1 align="center">
+useForm
+</h1>
 <p align="center">
-  <a href="https://github.com/amazingandyyy/use-form/pulls">
+Form hook made blazing fast and easy.
+</p>
+
+<p align="center">
+    <a href="https://github.com/amazingandyyy/use-form/pulls">
     <img src="https://camo.githubusercontent.com/d4e0f63e9613ee474a7dfdc23c240b9795712c96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e737667" />
   </a>
-  <a href="https://circleci.com/gh/amazingandyyy/use-form-react">
-    <img src="https://circleci.com/gh/amazingandyyy/use-form-react.svg?style=svg" />
-  </a>
-  <a href="https://www.npmjs.com/package/use-form-react">
-    npm package
-  </a>
+    <a href="https://github.com/amazingandyyy/use-form-react/blob/master/LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    </a>
+    <a href="https://github.com/amazingandyyy/use-form-react/pulls">
+      <img src="https://camo.githubusercontent.com/d4e0f63e9613ee474a7dfdc23c240b9795712c96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e737667" />
+    </a>
 </p>
+
+> The most unopinionated form hook.
 
 ## Installation
 
 ```shell
 npm i --save use-form-react
+# or
+yarn add use-form-react
 ```
 
 ## Have a good to use form in 10 seconds
@@ -106,12 +115,14 @@ const SignUp = () => {
 }
 ```
 
-## License
-
-MIT
-
 ## To Do
 
 - [ ] better test case
 - [ ] debounce the error
 - [ ] built-in validation
+
+
+## License
+
+MIT
+
