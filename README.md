@@ -29,7 +29,7 @@ npm i --save use-form-react
 check [basic example](https://github.com/amazingandyyy/use-form-react/blob/master/examples/basic/index.js)
 
 ```jsx
-import useFetch from 'use-form-react'
+import useForm from 'use-form-react'
 
 const Form = () => {
   const { onSubmit, onChange, inputs } = useForm('sampleForm', {

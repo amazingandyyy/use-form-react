@@ -1,5 +1,5 @@
 // import React from "react";
-// import { useFetch } from '../index';
+// import { useForm } from '../index';
 
 describe('useForm', () => {
   it('can be done', (done) => {
