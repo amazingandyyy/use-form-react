@@ -5,7 +5,7 @@
     <img src="https://camo.githubusercontent.com/d4e0f63e9613ee474a7dfdc23c240b9795712c96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e737667" />
   </a>
   <a href="https://circleci.com/gh/amazingandyyy/react-use-form">
-    <img src="https://img.shields.io/circleci/project/github/amazingandyyy/react-use-form/master.svg" />
+    <img src="https://circleci.com/gh/amazingandyyy/react-use-form.svg?style=svg" />
   </a>
 </p>
 
@@ -15,7 +15,7 @@
 npm i --save react-use-form
 ```
 
-![video](https://s3.amazonaws.com/img0.recordit.co/gyvJDCxIOD.mp4?AWSAccessKeyId=AKIAINSRFOQXTN4DT46A&Expires=1556609056&Signature=vTQUm8gX3qw%2FnyF9jReS2AS9aCE%3D)
+<iframe src="https://giphy.com/embed/jkYpOoNMkZAk8y9u8F" width="438" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/jkYpOoNMkZAk8y9u8F">via GIPHY</a></p>
 
 ## Usage
 
