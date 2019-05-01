@@ -1,6 +1,6 @@
 {
   "name": "use-form-react",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "The most unopinionated react from hook.",
   "main": "dist/index.js",
   "keywords": [
@@ -35,7 +35,7 @@
     "dev:advance": "parcel examples/advance/index.html --open",
     "build": "parcel build --target node ./src/*",
     "test": "jest",
-    "publish": "npm run build && npm publish"
+    "release": "npm run build && npm publish"
   },
   "files": [
     "dist"
