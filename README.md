@@ -78,7 +78,7 @@ const SignUp = () => {
   }
   const {
     onSubmit, onChange, inputs, dirty, submitting, reset
-  } = useForm('signInForm', option)
+  } = useForm('myAdvanceFormName', option)
   
   useEffect(() => {
     if(inputs.password1!==inputs.password2) console.log('password not matched')
