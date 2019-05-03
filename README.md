@@ -1,5 +1,5 @@
 <h1 align="center">
-useForm
+⚡ useForm
 </h1>
 <p align="center">
 Form hook made blazing fast and easy.
