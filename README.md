@@ -1,19 +1,19 @@
 <h1 align="center">
-useForm
+⚡ useForm
 </h1>
 <p align="center">
 Form hook made blazing fast and easy.
 </p>
 
 <p align="center">
-    <a href="https://github.com/amazingandyyy/use-form/pulls">
-    <img src="https://camo.githubusercontent.com/d4e0f63e9613ee474a7dfdc23c240b9795712c96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e737667" />
-  </a>
-    <a href="https://github.com/amazingandyyy/use-form-react/blob/master/LICENSE">
-      <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    <a href="https://circleci.com/gh/amazingandyyy/use-form-react">
+      <img src="https://circleci.com/gh/amazingandyyy/use-form-react.svg?style=svg" />
     </a>
-    <a href="https://github.com/amazingandyyy/use-form-react/pulls">
-      <img src="https://camo.githubusercontent.com/d4e0f63e9613ee474a7dfdc23c240b9795712c96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e737667" />
+    <a href="https://github.com/amazingandyyy/use-form-react/blob/master/LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-green.svg" />
+    </a>
+    <a href="https://github.com/amazingandyyy/use-form/pulls">
+        <img src="https://camo.githubusercontent.com/d4e0f63e9613ee474a7dfdc23c240b9795712c96/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e737667" />
     </a>
 </p>
 
@@ -78,7 +78,7 @@ const SignUp = () => {
   }
   const {
     onSubmit, onChange, inputs, dirty, submitting, reset
-  } = useForm('signInForm', option)
+  } = useForm('myAdvanceFormName', option)
   
   useEffect(() => {
     if(inputs.password1!==inputs.password2) console.log('password not matched')
