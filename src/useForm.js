@@ -6,10 +6,24 @@ const useForm = (name, config) => {
   return forms[name];
 }
 
-const useSpecificForm = (name, {initialValues={},debug=false, callback=(inputs)=>console.log('form submitted', inputs)}) => {
+const useSpecificForm = (name, {initialValues={}, validation = {}, debug=false, callback=(inputs)=>console.log('form submitted', inputs) }) => {
+  let isValid = true;
+  const initialErrors = Object.keys(initialValues).reduce((acc, key) => {
+    if (validation[key]) {
+      const error = validation[key](initialValues);
+      if (error) {
+        acc[key] = validation[key](initialValues);
+        isValid = false;
+      }
+    }
+    return acc;
+  }, {});
+
   const [inputs, setInputs] = useState(initialValues);
   const [dirty, setDirty] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+  const [valid, setValid] = useState(isValid);
+  const [errors, setErrors] = useState(initialErrors)
 
   const reset = () => {
     setInputs(initialValues);
@@ -26,19 +40,41 @@ const useSpecificForm = (name, {initialValues={},debug=false, callback=(inputs)=
     setInputs(inputs => {
       currentInputs = {...inputs, [event.target.name]: event.target.value};
       if(isEquivalent(currentInputs, initialValues)) setDirty(false);
-      return currentInputs
+      if (validation[event.target.name]) {
+        const error = validation[event.target.name](currentInputs);
+
+        if (error) {
+          setErrors({
+            ...errors,
+            [event.target.name]: error,
+          });
+        } else {
+          delete errors[event.target.name];
+          setErrors(errors);
+        }
+      };
+
+      return currentInputs;
     });
+
+
     if(debug) console.log({name, event: 'onChange', field: event.target.name, value: event.target.value, currentInputs});
   }
 
   const onSubmit = (event) => {
-    setSubmitting(true);
-    if (event) {
-      event.preventDefault();
+    if (valid) {
+      setSubmitting(true);
+      if (event) {
+        event.preventDefault();
+      }
+      if(debug) console.log({name, event: 'onSubmit', values: inputs});
+      return callback(inputs);
     }
-    if(debug) console.log({name, event: 'onSubmit', values: inputs});
-    return callback(inputs);
   }
+
+  isValid = !Object.keys(errors).length
+
+  if (valid !== isValid) setValid(isValid);
 
   return {
     onSubmit,
@@ -48,6 +84,8 @@ const useSpecificForm = (name, {initialValues={},debug=false, callback=(inputs)=
     dirty,
     reset,
     setInputs,
+    errors,
+    valid,
   };
 }
 
