@@ -15,6 +15,7 @@
     "type": "git",
     "url": "https://github.com/amazingandyyy/use-form-react.git"
   },
+  "types": "index.d.ts",
   "peerDependencies": {
     "react": "^16.8.0"
   },
@@ -25,6 +26,7 @@
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
+    "@types/react": "^16.8.18",
     "babel-jest": "^24.7.1",
     "jest": "^24.7.1",
     "parcel-bundler": "^1.12.3",
