@@ -147,8 +147,8 @@ const SignUp = () => {
 
 - [ ] better test case
 - [ ] debounce the error
-- [ ] built-in validation
-
+- [x] built-in validation - done by [#3](https://github.com/amazingandyyy/use-form-react/pull/3)
+- [x] support ts - done by [#4](https://github.com/amazingandyyy/use-form-react/pull/4)
 
 ## License
 
