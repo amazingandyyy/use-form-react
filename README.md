@@ -149,6 +149,7 @@ const SignUp = () => {
 - [ ] debounce the error
 - [x] built-in validation - done by [#3](https://github.com/amazingandyyy/use-form-react/pull/3)
 - [x] support ts - done by [#4](https://github.com/amazingandyyy/use-form-react/pull/4)
+- [ ] ts docs
 
 ## License
 
